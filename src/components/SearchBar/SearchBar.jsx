@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SearchBar.css";
-import SearchIcon from '@material-ui/icons/Search';
+import SearchIcon from '@mui/material/Icon';
 import logoMercadoLibre from "../../public/buysection/logomercadolibre.png"
 
 const SearchBar = ({ value, changeInput }) => (
