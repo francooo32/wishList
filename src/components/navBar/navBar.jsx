@@ -18,7 +18,7 @@ const NavBar = ({isScrolling}) => {
             
             <ul>
               <li>
-                <a href="https://wa.me/541162767256">Contacto</a>
+                <a href="https://wa.me/541162767256" target='_blank'>Contacto</a>
               </li>
             </ul>
 
