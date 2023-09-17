@@ -1,0 +1,55 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(14, 14, 14)
+}
+
+.sellcar-container{
+    background-image: linear-gradient( to bottom left, rgb(255 255 255) -700%, rgb(14 14 14) 45%);
+    height: 100%;
+}
+
+.sellcar-container #yearImg1 {
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    margin: 200px 0px 0 0;
+    opacity: 0.2;
+}
+
+.sellcar-container #yearImg2 {
+    position: absolute;
+    height: 45%;
+    width: 40%;
+    margin: 120px 0 0 0;
+    margin-left: 57%;
+    opacity: 0.2;
+}
+
+.sellcar-container .sellcar-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.sellcar-container .sellcar-text h1{
+    font-size: 50px;
+    padding: 100px 0px 0px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: essonnes-display, serif;
+    color: rgb(200, 200, 200);
+}
+
+@media screen and (max-width: 960px){
+    .cover-container > h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .cover-container > p {
+        text-align: center;
+        font-size: 22px;
+        width: 85%;
+    }
+}
