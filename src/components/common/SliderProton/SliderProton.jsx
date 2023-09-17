@@ -1,38 +1,16 @@
 import React from 'react';
-import { makeStyles } from '@mui/styles';
 import Slider from '@mui/material/Slider';
 
-const useStyles = makeStyles({
-  root: {
-    width: '100%',
-  },
-  thumb: {
-    color: '#000',
-  },
-  rail: {
-    color: `rgba(0, 0, 0, 0.26)`,
-  },
-  track: {
-    color: '#000',
-  },
-});
-
 const SliderProton = ({ value, changePrice }) => {
-  const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div >
       <Slider
         value={value}
         onChange={changePrice}
         valueLabelDisplay='on'
         min={10000}
         max={100000000}
-        classes={{
-          thumb: classes.thumb,
-          rail: classes.rail,
-          track: classes.track,
-        }}
       />
     </div>
   );
